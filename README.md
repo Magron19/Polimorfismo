@@ -3,7 +3,7 @@
 # 1. Polimorfismo por Herança:
 * Como funciona: A classe Animal é uma classe base abstrata, e as subclasses (Cachorro, Gato, Papagaio) a estendem e implementam o método fazerSom() de maneiras específicas. No teste, criamos um array de Animal e chamamos o método fazerSom() para diferentes tipos de animais, demonstrando que o mesmo método se comporta de maneira diferente dependendo da instância.
 
-* Vantagens:
+- Vantagens:
 
 * 1.1 Facilidade de Expansão: Para adicionar um novo tipo de animal, basta criar uma nova classe que estenda Animal e implemente o método fazerSom(). Não é necessário modificar o código existente.
   
@@ -14,7 +14,7 @@
 # 2. Polimorfismo por Interface: 
 * Como funciona: A interface FazSom define um contrato que exige que qualquer classe que a implemente forneça uma implementação do método emitirSom(). As classes Alarme, Robo, e Carro implementam essa interface, permitindo que todas sejam tratadas polimorficamente no mesmo método que aceita uma lista de objetos que implementam FazSom.
 
-* Vantagens:
+- Vantagens:
 
 * 2.1 Desacoplamento: Usando interfaces, podemos separar a definição do comportamento (FazSom) da implementação real. Isso significa que podemos adicionar novas classes que emitem sons (como um novo tipo de alarme) sem modificar as classes existentes.
   
